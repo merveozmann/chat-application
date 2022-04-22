@@ -1,0 +1,50 @@
+.chatInput__container{
+    display: grid;
+    align-items: center;
+    background-color: #080420;
+    padding: 0 2rem;
+    padding-bottom: 0.3rem;
+
+}
+/* .input__container{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+
+} */
+.input__container {
+    width: 100%;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffff34;
+
+}
+.input__container  input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    
+}
+.input__container  input::selection{
+    background-color: #9186f3;
+}
+.input__container  input:focus{
+    outline: none;
+}
+.submit{
+    padding: 0.3rem 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a86f3;
+    border: none;
+    color: white;
+    height: 3rem;
+}

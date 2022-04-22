@@ -1,0 +1,11 @@
+.welcome__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+span{
+    color: #4e00ff;
+}
